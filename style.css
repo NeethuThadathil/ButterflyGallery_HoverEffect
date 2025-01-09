@@ -1,0 +1,139 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+.navbar
+{
+    background-color: #ecf4ec;
+}
+.content_main
+{
+    background-color:#fffeff ;
+}
+
+.heading_Top
+{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.row11, .row12, .row13, .row21, .row22, .row23
+{
+    height: 350px;
+    width: 300px;
+    
+    border-style: solid;
+    border-width: small ;
+    border-color: black;
+    border-radius: 30px;
+}
+.row11 img
+{
+    transition: transform 0.7s ease-in-out; 
+}
+.row12 img
+{
+    transition: transform 0.7s ease-in-out;   
+} 
+.row13 img
+{
+    transition: transform 0.9s ease-in-out;   
+
+}
+.row21 img, .row22 img, .row23 img
+{
+    transition: transform 0.9s ease-in-out;   
+ 
+}
+.row31 img, .row32 img, .row33 img
+{
+    transition: transform 0.9s ease-in-out;
+}
+.foot
+{
+    width: 100%;
+    height: 30px;
+    background-color:#D0DDD0;
+    margin-top: 5px;
+    
+}
+.foot p
+{
+    text-align: center;
+
+}
+.row11 img:hover
+{
+    translate: 100px 20px;
+}
+.row12 img:hover
+{
+    transform:rotate(45deg);   
+}
+.row13 img:hover
+{
+    
+    transform: scale(2);
+}
+.row21 img:hover
+{
+    transform: skewX(30deg);
+}
+.row22 img:hover
+{
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
+.row23 img:hover
+{
+    transform: rotate(90deg);
+}
+.row31, .row32, .row33, .row41, .row42, .row43
+{
+    height: 350px;
+    width: 300px;
+    
+    border-style: solid;
+    border-width: small ;
+    border-color: black;
+    border-radius: 30px;
+}
+.row31 img:hover
+{
+    transform: translate3d(50px,100px,50px);
+}
+.row32 img:hover
+{
+    transform: rotate3d(1, 1, 1, 90deg);
+    
+}
+.row33 img:hover
+{
+    transform: scale3d(2, 1.5, 1);
+}
+.row41 img, .row42 img
+{
+    transition: transform 0.5s ease-in-out;
+}
+.row41 img:hover
+{
+    transform: rotateX(360deg);
+    transform: rotateY(180deg);
+}
+.row42 img:hover
+{
+    transform: skewY(15deg);
+    transform: scale3d(2, 1.5, 1);
+}
+.row43 img
+{
+    transition: transform 0.9s ease-in-out;
+}
+.row43 img:hover
+{
+    translate: 100px 20px;
+    transform: rotateY(180deg);
+}

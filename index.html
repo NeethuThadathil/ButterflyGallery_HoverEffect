@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ButterflyGallery_HoverEffect</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+
+<body>
+    <div>
+        <!-- navigation bar -->
+        <section>
+            <div class="navigation">
+                <nav class="navbar ">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img src="./image/multi_butterfly.avif" alt="Logo" width="30" height="24"
+                                class="d-inline-block align-text-top">
+                            Butterfly Gallery
+                        </a>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn " type="submit">Search</button>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+        </section>
+        <!-- main content -->
+        <section>
+            <div class="content_main">
+                <div class="heading_Top">
+                    <h1>2D Transforms</h1>
+                </div>
+                <div class="container text-center content_main">
+                    <div class="row row_1">
+                        <div class="col row11">
+                            <h6>translate()</h6>
+                            <img src="./image/green_butterfly.png" alt="" height="200px" width="300px">
+                            <p>This moves the element 20 pixels to the right and 100 pixels down.</p>
+                        </div>
+                        <div class="col row12">
+                            <h6>rotate()</h6>
+                            <img src="./image/orange_butterfly.png" alt="">
+                            <p>This rotates the element 45 degrees clockwise.</p>
+                        </div>
+                        <div class="col row13">
+                            <h6>scale()</h6>
+                            <img src="./image/red_butterfly.jpg" alt="">
+                            <p>This scales the element to twice its original size in both width and height</p>
+                        </div>
+                    </div>
+                    <div class="row row_2">
+                        <div class="col row21">
+                            <h6>skewX()</h6>
+                            <img src="./image/violet_butterfly.jpg" alt="">
+                            <p>This skews the element 30 degrees along the X-axis</p>
+                        </div>
+                        <div class="col row22">
+                            <h6>skewY()</h6>
+                            <img src="./image/Pink_butterfly.jpg" alt="">
+                            <p>This skews the element 30 degrees along the Y-axis</p>
+                        </div>
+                        <div class="col row23">
+                            <h6>matrix()</h6>
+                            <img src="./image/yellow_buterfly.png" alt="">
+                            <p>This metrix allow to rotate, scale, move (translate), and skew elements.</p>
+                        </div>
+                    </div>
+                    <div class="heading_Top">
+                        <h1>3D Transforms</h1>
+                    </div>
+                    <div class="row row_3">
+                        <div class="col row31">
+                            <h6>translate3d()</h6>
+                            <img src="./image/green_butterfly.png" alt="">
+                            <p>This moves the element 30 pixels to the right, 100 pixels down, and 20 pixels forward on
+                                the Z-axis.</p>
+                        </div>
+                        <div class="col row32">
+                            <h6>rotate3d()</h6>
+                            <img src="./image/orange_butterfly.png" alt="">
+                            <p>This rotates the element 90 degrees clockwise in X,Y and Z axis</p>
+                        </div>
+                        <div class="col row33">
+                            <h6>Scale3d()</h6>
+                            <img src="./image/red_butterfly.jpg" alt="">
+                            <p>The element is scaled 2 times along the X-axis,1.5 times along Y-axis,1 times along
+                                Z-axis</p>
+                        </div>
+                    </div>
+                    <div class="heading_Top">
+                        <h1>Combination Effects</h1>
+                    </div>
+                    <div class="row row_4">
+                        <div class="col row41">
+                            <h6>rotateX() and rotateY()</h6>
+                            <img src="./image/violet_butterfly.jpg" alt="">
+                            <p>Rotates the element around the X-axis by 360 degrees and rotates the element around the Y-axis  by 180 degrees.</p>
+                        </div>
+                        <div class="col row42">
+                            <h6>scale3d() and skewX()</h6>
+                            <img src="./image/Pink_butterfly.jpg" alt="">
+                            <p>The element sknew 15 degrees along the Y-axis and scaled x-axis double, Y-axis 1.5 and Z-axis 1 </p>
+                        </div>
+                        <div class="col row43">
+                             <h6>translate and rotate</h6>
+                            <img src="./image/yellow_buterfly.png" alt="">
+                            <p>The element moves the element 100 pixels to the right and 20 pixels down. and it rotate 180 degree along the Y-axis</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- footer section -->
+        <footer>
+            <div class="foot">
+                <p> &copy; All design 2025 All Rights Reserved &reg; ButterFly GalLery! </p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
