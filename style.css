@@ -120,14 +120,15 @@
 }
 .row41 img:hover
 {
-    transform: rotateX(360deg);
-    transform: rotateY(180deg);
+    
+    transform: rotateX(360deg) rotateY(180deg) ;
 }
 .row42 img:hover
 {
-    transform: skewY(15deg);
-    transform: scale3d(2, 1.5, 1);
-}
+    
+
+    transform: skewY(15deg) scale3d(2, 1.5, 1);
+} 
 .row43 img
 {
     transition: transform 0.9s ease-in-out;
